@@ -2,7 +2,7 @@
     "name": "ziiframework/gii",
     "description": "zii gii",
     "keywords": [
-        "zii",
+        "zii-framework",
         "gii"
     ],
     "type": "yii2-extension",
@@ -20,6 +20,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "ziiframework/zii": "3.0.x-dev",
         "phpspec/php-diff": "^1.1.0"
