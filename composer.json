@@ -1,34 +1,31 @@
 {
-    "name": "yiisoft/yii2-gii",
-    "description": "The Gii extension for the Yii framework",
+    "name": "ziiframework/gii",
+    "description": "zii gii",
     "keywords": [
-        "yii2",
-        "gii",
-        "code generator"
+        "zii",
+        "gii"
     ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2-gii/issues",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2-gii"
+        "issues": "https://github.com/ziiframework/gii/issues",
+        "source": "https://github.com/ziiframework/gii"
     },
     "authors": [
         {
-            "name": "Qiang Xue",
-            "email": "qiang.xue@gmail.com"
+            "name": "Yii Team",
+            "email": "team@yiiframework.com",
+            "homepage": "http://www.yiiframework.com/team",
+            "role": "Founder and project lead"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "~2.0.14",
+        "ziiframework/zii": "3.0.x-dev",
         "phpspec/php-diff": "^1.1.0"
     },
     "require-dev": {
-        "yiisoft/yii2-coding-standards": "~2.0",
-        "phpunit/phpunit": "<7"
+        "phpunit/phpunit": "^8.5"
     },
     "autoload": {
         "psr-4": {
@@ -42,7 +39,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "3.0.x-dev"
         }
     },
     "config": {
@@ -54,7 +51,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://asset-packagist.org"
+            "url": "https://asset-packagist.cn"
         }
     ]
 }
