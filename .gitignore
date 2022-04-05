@@ -1,29 +1,7 @@
-# phpstorm project files
-.idea
+/.idea/
+/vendor/
 
-# netbeans project files
-nbproject
+/.DS_Store
+/Thumbs.db
 
-# zend studio for eclipse project files
-.buildpath
-.project
-.settings
-
-# windows thumbnail cache
-Thumbs.db
-
-# Mac DS_Store Files
-.DS_Store
-
-# composer
-/vendor
 /composer.lock
-composer.phar
-
-# phpunit
-phpunit.phar
-/phpunit.xml
-/tests/runtime
-/tests/data/config.local.php
-/tests/docker
-/tests/dockerids
