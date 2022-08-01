@@ -22,7 +22,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "ziiframework/zii": ">=3.5.0",
+        "ziiframework/zii": ">=3.6.9",
         "phpspec/php-diff": "^1.1.0"
     },
     "require-dev": {
